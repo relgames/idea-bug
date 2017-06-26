@@ -1,0 +1,15 @@
+group 'org.relgames.idea'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "com.typesafe.akka:akka-actor_2.12:2.5.3"
+    compile "com.typesafe.akka:akka-persistence_2.12:2.5.3"
+}
